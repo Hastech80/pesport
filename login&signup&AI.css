@@ -1,0 +1,169 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+*{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    margin: 0px;
+    color: white;
+    
+}
+body{
+    background-image: url("./background2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.margin{
+    margin: 25px 40px;
+}
+.t2{
+    font-size: 50px;
+}
+ 
+.p2, label{
+    font-size: 25px;
+}
+input{
+    background-color: black !important;
+    color: white !important;
+    margin: 10px !important;
+    border-radius: 50px !important;
+    padding: 15px !important;
+}
+a{
+    color: red !important;
+    text-decoration: none !important;
+}
+.login{
+    width: 70%;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 60px;
+    text-transform: capitalize;
+    font-size: 23px;
+    padding: 10px;
+    
+}
+.login:hover{
+    background-color: white;
+    color: red;
+    border: none;
+}
+.login2{
+    width: 70%;
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    border-radius: 60px;
+    border: none;
+    font-size: 23px;
+    padding: 10px;
+}
+ 
+@media screen and (max-width:1000px) {
+     .temporary{
+        display: none;
+     }
+}
+@media screen and (max-width:995px) {
+     .login_resp{
+        font-size:15px;
+     }
+}
+
+/* pop up aspect */
+#logout-popup {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-40%, -40%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: none;
+    width: 300px;
+    height: 380px;
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif
+}
+#logout-popup2 {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-40%, -40%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: none;
+    width: 400px;
+    height: 420px;
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif
+}
+  
+    #logout-popup.show {
+    display: block;
+    }
+
+    #logout-form {
+    text-align: center;
+    }
+
+    #yes-btn, #no-btn, .no-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;
+    background-color: red;
+    color: #fff;
+    }
+    .submittttting{
+    text-align: center;
+    text-transform: capitalize;
+    }
+    .bi{
+    color: purple;
+    font-size: 30px;
+    font-weight: bolder;
+    }
+    .mainnn{
+    border-radius: 10px;
+    padding: 1px;
+    grid-template-columns: 1fr;
+    width: 700px;
+    margin: 65px auto;
+    }
+    #yes-btn:hover{
+    background-color: red !important;
+    }
+      textarea,option {
+        background-color: black !important;
+        color: white !important;
+    }
+    .form-select{
+        background-color: black !important;
+        color: white !important;
+    }
+    .bi-pen{
+        color: white;
+        font-size: 25px;
+    }
+    .ai_btn{
+        color: white;
+        width: 100%;
+        padding: 7px;
+        background-color: rgb(67, 0, 67);
+        border-radius: 50px;
+        text-transform: capitalize;
+    }
+    .mes{
+        background-color: hsl(0, 17%, 8%)(0, 16%, 6%)(49, 49, 49);
+        
+    }
