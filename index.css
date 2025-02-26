@@ -192,5 +192,5 @@ input,textarea{
     padding: 10px;  
 }
 .navbar-toggler{
-    color: white;
+    color: white !important;
 }
